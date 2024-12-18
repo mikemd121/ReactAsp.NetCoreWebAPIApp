@@ -66,7 +66,7 @@ namespace ReactAsp.NetCoreWebAPIApp.Controllers.APIControllers
         {
             var result = _customerService.UpdateCustomer(customerModel);
             if (!result)
-                return BadRequest();
+                return BadRequest(new { Message = "Delete failed" });
             return Ok();
         }
 
@@ -82,7 +82,7 @@ namespace ReactAsp.NetCoreWebAPIApp.Controllers.APIControllers
         {
             var result = _customerService.DeleteCustomer(id);
             if (!result)
-                return BadRequest();
+                return BadRequest(new { Message = "Delete failed" });
             return Ok();
         }
 

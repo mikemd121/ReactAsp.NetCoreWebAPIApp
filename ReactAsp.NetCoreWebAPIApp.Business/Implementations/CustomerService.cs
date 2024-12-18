@@ -3,18 +3,18 @@ using ReactAsp.NetCoreWebAPIApp.Business.Interfaces;
 using ReactAsp.NetCoreWebAPIApp.Core.Common;
 using ReactAsp.NetCoreWebAPIApp.Data.EntityModels;
 using ReactAsp.NetCoreWebAPIApp.Model.Customer;
-using ReactAsp.NetCoreWebAPIApp.Repository.BaseRepository;
 using ReactAsp.NetCoreWebAPIApp.Repository.BaseRepository.Interfaces;
+using Realms;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Web.Helpers;
 
 namespace ReactAsp.NetCoreWebAPIApp.Business.Implementations
 {
     /// <summary>
-    /// 
+    /// Customer service.
     /// </summary>
-    /// <seealso cref="ReactAsp.NetCoreWebAPIApp.Business.Interfaces.ICustomerService" />
     public class CustomerService : ICustomerService
     {
 
@@ -29,14 +29,15 @@ namespace ReactAsp.NetCoreWebAPIApp.Business.Implementations
         /// <summary>
         /// The unit of work
         /// </summary>
-        private readonly IUnitOfWork unitOfWork;
+      //   private readonly IUnitOfWork unitOfWork;
 
-        public CustomerService(IUnitOfWork unitOfWork,
+        public CustomerService(
+            //IUnitOfWork unitOfWork,
             IMapper mapper,
             IGenericRepository<Customer> genericRepository)
         {
             this.mapper = mapper;
-            this.unitOfWork = unitOfWork;
+          //  this.unitOfWork = unitOfWork;
             _genericRepository = genericRepository;
         }
 
@@ -58,12 +59,10 @@ namespace ReactAsp.NetCoreWebAPIApp.Business.Implementations
             else
             {
                 var customer = mapper.Map<Customer>(customerModel);
-                //  unitOfWork.GetRepository<Customer>().Insert(customer); this method also can be used to insert.
                 _genericRepository.Insert(customer);
                 model.IsSuccess = true;
                 model.Messsage = "Customer registration completed.";
             }
-            // unitOfWork.SaveChanges(); this method also can be used to save.
             _genericRepository.Save();
 
             return model;
@@ -80,9 +79,7 @@ namespace ReactAsp.NetCoreWebAPIApp.Business.Implementations
         /// </returns>
         public bool IsCustomerRegistered(string Email)
         {
-            //  var isExist = unitOfWork.GetRepository<Customer>().Get(x => x.Email.Contains(Email)).Any(); this code also can be used
-            var isExist= _genericRepository.Get(x => x.Email.Contains(Email)).Any();
-
+            var isExist = _genericRepository.Get(x => x.Email.Contains(Email)).Any();
             if (isExist)
                 return true;
             return false;
@@ -95,13 +92,13 @@ namespace ReactAsp.NetCoreWebAPIApp.Business.Implementations
         /// <returns></returns>
         public List<CustomerId> GetCustomerList()
         {
-            return unitOfWork.GetRepository<Customer>().Get().Select(v => new CustomerId
+            return _genericRepository.GetAll().Select(v => new CustomerId
             {
                 Id = (int)v.CustomerId,
                 Name = v.Name,
-                Address=v.Address,
-                Email=v.Email
-            }).ToList(); ;
+                Address = v.Address,
+                Email = v.Email
+            }).ToList();
         }
 
 
@@ -111,12 +108,13 @@ namespace ReactAsp.NetCoreWebAPIApp.Business.Implementations
         /// <returns></returns>
         public bool UpdateCustomer(CustomerModel customerModel)
         {
-            var custId = Convert.ToInt32(customerModel.CustomerId);
-            var customer = unitOfWork.GetRepository<Customer>().Get(x => x.CustomerId == custId).FirstOrDefault();
-            customer.Name = customerModel.Name;
-            customer.Address = customerModel.Address;
-            customer.Email = customerModel.Email;
-            unitOfWork.SaveChanges();
+            var existingUser = _genericRepository.Get(x => x.Email==customerModel.Email).FirstOrDefault();
+            if (existingUser == null)
+                return false;
+            existingUser.Name = customerModel.Name;
+            existingUser.Address = customerModel.Address;
+            _genericRepository.Update(existingUser);
+            _genericRepository.Save();
             return true;
         }
 
@@ -128,10 +126,18 @@ namespace ReactAsp.NetCoreWebAPIApp.Business.Implementations
         /// <returns></returns>
         public bool DeleteCustomer(string customerId)
         {
-            var custId = Convert.ToInt32(customerId);
-            var cus = unitOfWork.GetRepository<Customer>().Get(x => x.CustomerId == custId).FirstOrDefault();     
-            unitOfWork.GetRepository<Customer>().Delete(custId);
-            unitOfWork.SaveChanges();
+
+            // Validate if customerId can be converted to an integer
+            if (!int.TryParse(customerId, out int custId))
+                return false;
+
+            // Check if the customer exists
+            var customer = _genericRepository.GetByID(custId);
+            if (customer == null)
+                return false;
+ 
+            _genericRepository.Delete(custId);
+            _genericRepository.Save();
             return true;
         }
     }
