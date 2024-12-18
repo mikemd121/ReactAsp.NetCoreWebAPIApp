@@ -9,7 +9,7 @@ namespace ReactAsp.NetCoreWebAPIApp.Model.Customer
 {
     public class CustomerModel
     {
-
+        [System.Text.Json.Serialization.JsonIgnore]
         public int? CustomerId { get; set; }
 
         [Required(ErrorMessage = "Name is required")]

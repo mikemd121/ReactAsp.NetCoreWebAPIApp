@@ -49,3 +49,20 @@ D:\ISM-DOCS\ReactApp\ReactAsp.NetCoreWebAPIApp\ReactAsp.NetCoreWebAPIApp.Core\ob
 D:\ISM-DOCS\ReactApp\ReactAsp.NetCoreWebAPIApp\ReactAsp.NetCoreWebAPIApp.Core\obj\Debug\net5.0\ReactAsp.NetCoreWebAPIApp.Core.dll
 D:\ISM-DOCS\ReactApp\ReactAsp.NetCoreWebAPIApp\ReactAsp.NetCoreWebAPIApp.Core\obj\Debug\net5.0\ref\ReactAsp.NetCoreWebAPIApp.Core.dll
 D:\ISM-DOCS\ReactApp\ReactAsp.NetCoreWebAPIApp\ReactAsp.NetCoreWebAPIApp.Core\obj\Debug\net5.0\ReactAsp.NetCoreWebAPIApp.Core.pdb
+C:\Users\LENOVO T590\Source\Repos\ReactAsp.NetCoreWebAPIApp\ReactAsp.NetCoreWebAPIApp.Core\bin\Debug\net5.0\ReactAsp.NetCoreWebAPIApp.Core.deps.json
+C:\Users\LENOVO T590\Source\Repos\ReactAsp.NetCoreWebAPIApp\ReactAsp.NetCoreWebAPIApp.Core\bin\Debug\net5.0\ReactAsp.NetCoreWebAPIApp.Core.dll
+C:\Users\LENOVO T590\Source\Repos\ReactAsp.NetCoreWebAPIApp\ReactAsp.NetCoreWebAPIApp.Core\bin\Debug\net5.0\ReactAsp.NetCoreWebAPIApp.Core.pdb
+C:\Users\LENOVO T590\Source\Repos\ReactAsp.NetCoreWebAPIApp\ReactAsp.NetCoreWebAPIApp.Core\bin\Debug\net5.0\ReactAsp.NetCoreWebAPIApp.Data.dll
+C:\Users\LENOVO T590\Source\Repos\ReactAsp.NetCoreWebAPIApp\ReactAsp.NetCoreWebAPIApp.Core\bin\Debug\net5.0\ReactAsp.NetCoreWebAPIApp.Model.dll
+C:\Users\LENOVO T590\Source\Repos\ReactAsp.NetCoreWebAPIApp\ReactAsp.NetCoreWebAPIApp.Core\bin\Debug\net5.0\ReactAsp.NetCoreWebAPIApp.Data.pdb
+C:\Users\LENOVO T590\Source\Repos\ReactAsp.NetCoreWebAPIApp\ReactAsp.NetCoreWebAPIApp.Core\bin\Debug\net5.0\ReactAsp.NetCoreWebAPIApp.Model.pdb
+C:\Users\LENOVO T590\Source\Repos\ReactAsp.NetCoreWebAPIApp\ReactAsp.NetCoreWebAPIApp.Core\obj\Debug\net5.0\ReactAsp.NetCoreWebAPIApp.Core.csproj.AssemblyReference.cache
+C:\Users\LENOVO T590\Source\Repos\ReactAsp.NetCoreWebAPIApp\ReactAsp.NetCoreWebAPIApp.Core\obj\Debug\net5.0\ReactAsp.NetCoreWebAPIApp.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO T590\Source\Repos\ReactAsp.NetCoreWebAPIApp\ReactAsp.NetCoreWebAPIApp.Core\obj\Debug\net5.0\ReactAsp.NetCoreWebAPIApp.Core.AssemblyInfoInputs.cache
+C:\Users\LENOVO T590\Source\Repos\ReactAsp.NetCoreWebAPIApp\ReactAsp.NetCoreWebAPIApp.Core\obj\Debug\net5.0\ReactAsp.NetCoreWebAPIApp.Core.AssemblyInfo.cs
+C:\Users\LENOVO T590\Source\Repos\ReactAsp.NetCoreWebAPIApp\ReactAsp.NetCoreWebAPIApp.Core\obj\Debug\net5.0\ReactAsp.NetCoreWebAPIApp.Core.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO T590\Source\Repos\ReactAsp.NetCoreWebAPIApp\ReactAsp.NetCoreWebAPIApp.Core\obj\Debug\net5.0\ReactAsp.NetCoreWebAPIApp.Core.csproj.CopyComplete
+C:\Users\LENOVO T590\Source\Repos\ReactAsp.NetCoreWebAPIApp\ReactAsp.NetCoreWebAPIApp.Core\obj\Debug\net5.0\ReactAsp.NetCoreWebAPIApp.Core.dll
+C:\Users\LENOVO T590\Source\Repos\ReactAsp.NetCoreWebAPIApp\ReactAsp.NetCoreWebAPIApp.Core\obj\Debug\net5.0\refint\ReactAsp.NetCoreWebAPIApp.Core.dll
+C:\Users\LENOVO T590\Source\Repos\ReactAsp.NetCoreWebAPIApp\ReactAsp.NetCoreWebAPIApp.Core\obj\Debug\net5.0\ReactAsp.NetCoreWebAPIApp.Core.pdb
+C:\Users\LENOVO T590\Source\Repos\ReactAsp.NetCoreWebAPIApp\ReactAsp.NetCoreWebAPIApp.Core\obj\Debug\net5.0\ref\ReactAsp.NetCoreWebAPIApp.Core.dll

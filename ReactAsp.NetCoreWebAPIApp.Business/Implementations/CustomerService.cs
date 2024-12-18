@@ -3,6 +3,7 @@ using ReactAsp.NetCoreWebAPIApp.Business.Interfaces;
 using ReactAsp.NetCoreWebAPIApp.Core.Common;
 using ReactAsp.NetCoreWebAPIApp.Data.EntityModels;
 using ReactAsp.NetCoreWebAPIApp.Model.Customer;
+using ReactAsp.NetCoreWebAPIApp.Repository.BaseRepository;
 using ReactAsp.NetCoreWebAPIApp.Repository.BaseRepository.Interfaces;
 using System;
 using System.Collections.Generic;
@@ -22,6 +23,8 @@ namespace ReactAsp.NetCoreWebAPIApp.Business.Implementations
         /// </summary>
         private readonly IMapper mapper;
 
+        private IGenericRepository<Customer> _genericRepository;
+
 
         /// <summary>
         /// The unit of work
@@ -29,10 +32,12 @@ namespace ReactAsp.NetCoreWebAPIApp.Business.Implementations
         private readonly IUnitOfWork unitOfWork;
 
         public CustomerService(IUnitOfWork unitOfWork,
-            IMapper mapper)
+            IMapper mapper,
+            IGenericRepository<Customer> genericRepository)
         {
             this.mapper = mapper;
             this.unitOfWork = unitOfWork;
+            _genericRepository = genericRepository;
         }
 
         /// <summary>
@@ -53,11 +58,13 @@ namespace ReactAsp.NetCoreWebAPIApp.Business.Implementations
             else
             {
                 var customer = mapper.Map<Customer>(customerModel);
-                unitOfWork.GetRepository<Customer>().Insert(customer);
+                //  unitOfWork.GetRepository<Customer>().Insert(customer); this method also can be used to insert.
+                _genericRepository.Insert(customer);
                 model.IsSuccess = true;
                 model.Messsage = "Customer registration completed.";
             }
-            unitOfWork.SaveChanges();
+            // unitOfWork.SaveChanges(); this method also can be used to save.
+            _genericRepository.Save();
 
             return model;
         }
@@ -73,7 +80,8 @@ namespace ReactAsp.NetCoreWebAPIApp.Business.Implementations
         /// </returns>
         public bool IsCustomerRegistered(string Email)
         {
-            var isExist = unitOfWork.GetRepository<Customer>().Get(x => x.Email.Contains(Email)).Any();
+            //  var isExist = unitOfWork.GetRepository<Customer>().Get(x => x.Email.Contains(Email)).Any(); this code also can be used
+            var isExist= _genericRepository.Get(x => x.Email.Contains(Email)).Any();
 
             if (isExist)
                 return true;

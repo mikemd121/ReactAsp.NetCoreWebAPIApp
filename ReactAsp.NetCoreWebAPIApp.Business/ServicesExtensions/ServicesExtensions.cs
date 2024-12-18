@@ -18,6 +18,7 @@ namespace ReactAsp.NetCoreWebAPIApp.Business.ServicesExtensions
             services.AddScoped<ICustomerService, CustomerService>();
             services.AddScoped<IPropertyService, PropertyService>();
             services.AddScoped<ISalesService, SalesService>();
+            services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
             services.AddScoped<IUnitOfWork, UnitOfWork>();
 
         }

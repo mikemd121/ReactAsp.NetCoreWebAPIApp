@@ -13,18 +13,18 @@ namespace ReactAsp.NetCoreWebAPIApp.Repository.BaseRepository
     public class BaseRepository<T> : IBaseRepository<T>
            where T : class
     {
-        internal readonly CoreWebAppDbContext sanaDbContext;
+        internal readonly CoreWebAppDbContext dbContext;
         internal DbSet<T> _dbSet;
         DbContextOptionsBuilder<CoreWebAppDbContext> _optionsBuilder;
         public BaseRepository()
         {
-            sanaDbContext = sanaDbContext = new CoreWebAppDbContext(_optionsBuilder.Options);
-            _dbSet = sanaDbContext.Set<T>();
+            dbContext = dbContext = new CoreWebAppDbContext(_optionsBuilder.Options);
+            _dbSet = dbContext.Set<T>();
         }
 
         public BaseRepository(CoreWebAppDbContext _sanaDbContext)
         {
-            sanaDbContext = _sanaDbContext;
+            dbContext = _sanaDbContext;
             _dbSet = _sanaDbContext.Set<T>();
         }
 
@@ -85,12 +85,12 @@ namespace ReactAsp.NetCoreWebAPIApp.Repository.BaseRepository
         public virtual void Update(T entity)
         {
             _dbSet.Attach(entity);
-            sanaDbContext.Entry(entity).State = EntityState.Modified;
+            dbContext.Entry(entity).State = EntityState.Modified;
         }
 
         public void Delete(T entity)
         {
-            if (sanaDbContext.Entry(entity).State == EntityState.Detached)
+            if (dbContext.Entry(entity).State == EntityState.Detached)
                 _dbSet.Attach(entity);
             _dbSet.Remove(entity);
         }
@@ -111,7 +111,7 @@ namespace ReactAsp.NetCoreWebAPIApp.Repository.BaseRepository
 
         //public void Delete(Expression<Func<T, bool>> filter)
         //{
-        //    sanaDbContext.BulkDelete(filter);
+        //    dbContext.BulkDelete(filter);
         //}
 
 

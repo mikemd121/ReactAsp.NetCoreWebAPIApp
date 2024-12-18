@@ -9,6 +9,7 @@ namespace ReactAsp.NetCoreWebAPIApp.Model.Property
 {
   public  class PropertyModel
     {
+        [System.Text.Json.Serialization.JsonIgnore]
         public int? PropertyId { get; set; }
         public string Name { get; set; }
         public string No { get; set; }

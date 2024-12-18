@@ -73,7 +73,7 @@ namespace ReactAsp.NetCoreWebAPIApp
             services.AddAutoMapper(typeof(CustomerProfile));
             services.AddAutoMapper(typeof(PropertyProfile));
 
-            services.AddMyLibraryServices();
+            services.AddMyLibraryServices(); //extention method to register services seperately
             services.AddControllers()
        .AddFluentValidation(fv =>
        {
