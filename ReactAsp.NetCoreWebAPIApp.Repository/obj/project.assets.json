@@ -845,11 +845,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LENOVO T590\\Source\\Repos\\ReactAsp.NetCoreWebAPIApp\\ReactAsp.NetCoreWebAPIApp.Repository\\ReactAsp.NetCoreWebAPIApp.Repository.csproj",
+      "projectUniqueName": "C:\\Users\\LENOVO T590\\Source\\Repos\\ReactAsp.NetCoreWebAPIAppNew\\ReactAsp.NetCoreWebAPIApp.Repository\\ReactAsp.NetCoreWebAPIApp.Repository.csproj",
       "projectName": "ReactAsp.NetCoreWebAPIApp.Repository",
-      "projectPath": "C:\\Users\\LENOVO T590\\Source\\Repos\\ReactAsp.NetCoreWebAPIApp\\ReactAsp.NetCoreWebAPIApp.Repository\\ReactAsp.NetCoreWebAPIApp.Repository.csproj",
+      "projectPath": "C:\\Users\\LENOVO T590\\Source\\Repos\\ReactAsp.NetCoreWebAPIAppNew\\ReactAsp.NetCoreWebAPIApp.Repository\\ReactAsp.NetCoreWebAPIApp.Repository.csproj",
       "packagesPath": "C:\\Users\\LENOVO T590\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LENOVO T590\\Source\\Repos\\ReactAsp.NetCoreWebAPIApp\\ReactAsp.NetCoreWebAPIApp.Repository\\obj\\",
+      "outputPath": "C:\\Users\\LENOVO T590\\Source\\Repos\\ReactAsp.NetCoreWebAPIAppNew\\ReactAsp.NetCoreWebAPIApp.Repository\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\LENOVO T590\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -866,8 +866,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\LENOVO T590\\Source\\Repos\\ReactAsp.NetCoreWebAPIApp\\ReactAsp.NetCoreWebAPIApp.Data\\ReactAsp.NetCoreWebAPIApp.Data.csproj": {
-              "projectPath": "C:\\Users\\LENOVO T590\\Source\\Repos\\ReactAsp.NetCoreWebAPIApp\\ReactAsp.NetCoreWebAPIApp.Data\\ReactAsp.NetCoreWebAPIApp.Data.csproj"
+            "C:\\Users\\LENOVO T590\\Source\\Repos\\ReactAsp.NetCoreWebAPIAppNew\\ReactAsp.NetCoreWebAPIApp.Data\\ReactAsp.NetCoreWebAPIApp.Data.csproj": {
+              "projectPath": "C:\\Users\\LENOVO T590\\Source\\Repos\\ReactAsp.NetCoreWebAPIAppNew\\ReactAsp.NetCoreWebAPIApp.Data\\ReactAsp.NetCoreWebAPIApp.Data.csproj"
             }
           }
         }

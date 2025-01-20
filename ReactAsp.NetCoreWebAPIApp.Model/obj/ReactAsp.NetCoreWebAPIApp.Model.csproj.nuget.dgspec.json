@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\LENOVO T590\\Source\\Repos\\ReactAsp.NetCoreWebAPIApp\\ReactAsp.NetCoreWebAPIApp.Model\\ReactAsp.NetCoreWebAPIApp.Model.csproj": {}
+    "C:\\Users\\LENOVO T590\\Source\\Repos\\ReactAsp.NetCoreWebAPIAppNew\\ReactAsp.NetCoreWebAPIApp.Model\\ReactAsp.NetCoreWebAPIApp.Model.csproj": {}
   },
   "projects": {
-    "C:\\Users\\LENOVO T590\\Source\\Repos\\ReactAsp.NetCoreWebAPIApp\\ReactAsp.NetCoreWebAPIApp.Model\\ReactAsp.NetCoreWebAPIApp.Model.csproj": {
+    "C:\\Users\\LENOVO T590\\Source\\Repos\\ReactAsp.NetCoreWebAPIAppNew\\ReactAsp.NetCoreWebAPIApp.Model\\ReactAsp.NetCoreWebAPIApp.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LENOVO T590\\Source\\Repos\\ReactAsp.NetCoreWebAPIApp\\ReactAsp.NetCoreWebAPIApp.Model\\ReactAsp.NetCoreWebAPIApp.Model.csproj",
+        "projectUniqueName": "C:\\Users\\LENOVO T590\\Source\\Repos\\ReactAsp.NetCoreWebAPIAppNew\\ReactAsp.NetCoreWebAPIApp.Model\\ReactAsp.NetCoreWebAPIApp.Model.csproj",
         "projectName": "ReactAsp.NetCoreWebAPIApp.Model",
-        "projectPath": "C:\\Users\\LENOVO T590\\Source\\Repos\\ReactAsp.NetCoreWebAPIApp\\ReactAsp.NetCoreWebAPIApp.Model\\ReactAsp.NetCoreWebAPIApp.Model.csproj",
+        "projectPath": "C:\\Users\\LENOVO T590\\Source\\Repos\\ReactAsp.NetCoreWebAPIAppNew\\ReactAsp.NetCoreWebAPIApp.Model\\ReactAsp.NetCoreWebAPIApp.Model.csproj",
         "packagesPath": "C:\\Users\\LENOVO T590\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LENOVO T590\\Source\\Repos\\ReactAsp.NetCoreWebAPIApp\\ReactAsp.NetCoreWebAPIApp.Model\\obj\\",
+        "outputPath": "C:\\Users\\LENOVO T590\\Source\\Repos\\ReactAsp.NetCoreWebAPIAppNew\\ReactAsp.NetCoreWebAPIApp.Model\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\LENOVO T590\\AppData\\Roaming\\NuGet\\NuGet.Config",

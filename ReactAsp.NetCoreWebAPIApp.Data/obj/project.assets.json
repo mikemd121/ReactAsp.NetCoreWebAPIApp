@@ -827,11 +827,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LENOVO T590\\Source\\Repos\\ReactAsp.NetCoreWebAPIApp\\ReactAsp.NetCoreWebAPIApp.Data\\ReactAsp.NetCoreWebAPIApp.Data.csproj",
+      "projectUniqueName": "C:\\Users\\LENOVO T590\\Source\\Repos\\ReactAsp.NetCoreWebAPIAppNew\\ReactAsp.NetCoreWebAPIApp.Data\\ReactAsp.NetCoreWebAPIApp.Data.csproj",
       "projectName": "ReactAsp.NetCoreWebAPIApp.Data",
-      "projectPath": "C:\\Users\\LENOVO T590\\Source\\Repos\\ReactAsp.NetCoreWebAPIApp\\ReactAsp.NetCoreWebAPIApp.Data\\ReactAsp.NetCoreWebAPIApp.Data.csproj",
+      "projectPath": "C:\\Users\\LENOVO T590\\Source\\Repos\\ReactAsp.NetCoreWebAPIAppNew\\ReactAsp.NetCoreWebAPIApp.Data\\ReactAsp.NetCoreWebAPIApp.Data.csproj",
       "packagesPath": "C:\\Users\\LENOVO T590\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LENOVO T590\\Source\\Repos\\ReactAsp.NetCoreWebAPIApp\\ReactAsp.NetCoreWebAPIApp.Data\\obj\\",
+      "outputPath": "C:\\Users\\LENOVO T590\\Source\\Repos\\ReactAsp.NetCoreWebAPIAppNew\\ReactAsp.NetCoreWebAPIApp.Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\LENOVO T590\\AppData\\Roaming\\NuGet\\NuGet.Config",

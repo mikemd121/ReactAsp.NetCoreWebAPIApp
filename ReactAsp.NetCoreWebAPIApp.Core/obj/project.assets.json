@@ -1144,11 +1144,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LENOVO T590\\Source\\Repos\\ReactAsp.NetCoreWebAPIApp\\ReactAsp.NetCoreWebAPIApp.Core\\ReactAsp.NetCoreWebAPIApp.Core.csproj",
+      "projectUniqueName": "C:\\Users\\LENOVO T590\\Source\\Repos\\ReactAsp.NetCoreWebAPIAppNew\\ReactAsp.NetCoreWebAPIApp.Core\\ReactAsp.NetCoreWebAPIApp.Core.csproj",
       "projectName": "ReactAsp.NetCoreWebAPIApp.Core",
-      "projectPath": "C:\\Users\\LENOVO T590\\Source\\Repos\\ReactAsp.NetCoreWebAPIApp\\ReactAsp.NetCoreWebAPIApp.Core\\ReactAsp.NetCoreWebAPIApp.Core.csproj",
+      "projectPath": "C:\\Users\\LENOVO T590\\Source\\Repos\\ReactAsp.NetCoreWebAPIAppNew\\ReactAsp.NetCoreWebAPIApp.Core\\ReactAsp.NetCoreWebAPIApp.Core.csproj",
       "packagesPath": "C:\\Users\\LENOVO T590\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LENOVO T590\\Source\\Repos\\ReactAsp.NetCoreWebAPIApp\\ReactAsp.NetCoreWebAPIApp.Core\\obj\\",
+      "outputPath": "C:\\Users\\LENOVO T590\\Source\\Repos\\ReactAsp.NetCoreWebAPIAppNew\\ReactAsp.NetCoreWebAPIApp.Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\LENOVO T590\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1165,11 +1165,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\LENOVO T590\\Source\\Repos\\ReactAsp.NetCoreWebAPIApp\\ReactAsp.NetCoreWebAPIApp.Data\\ReactAsp.NetCoreWebAPIApp.Data.csproj": {
-              "projectPath": "C:\\Users\\LENOVO T590\\Source\\Repos\\ReactAsp.NetCoreWebAPIApp\\ReactAsp.NetCoreWebAPIApp.Data\\ReactAsp.NetCoreWebAPIApp.Data.csproj"
+            "C:\\Users\\LENOVO T590\\Source\\Repos\\ReactAsp.NetCoreWebAPIAppNew\\ReactAsp.NetCoreWebAPIApp.Data\\ReactAsp.NetCoreWebAPIApp.Data.csproj": {
+              "projectPath": "C:\\Users\\LENOVO T590\\Source\\Repos\\ReactAsp.NetCoreWebAPIAppNew\\ReactAsp.NetCoreWebAPIApp.Data\\ReactAsp.NetCoreWebAPIApp.Data.csproj"
             },
-            "C:\\Users\\LENOVO T590\\Source\\Repos\\ReactAsp.NetCoreWebAPIApp\\ReactAsp.NetCoreWebAPIApp.Model\\ReactAsp.NetCoreWebAPIApp.Model.csproj": {
-              "projectPath": "C:\\Users\\LENOVO T590\\Source\\Repos\\ReactAsp.NetCoreWebAPIApp\\ReactAsp.NetCoreWebAPIApp.Model\\ReactAsp.NetCoreWebAPIApp.Model.csproj"
+            "C:\\Users\\LENOVO T590\\Source\\Repos\\ReactAsp.NetCoreWebAPIAppNew\\ReactAsp.NetCoreWebAPIApp.Model\\ReactAsp.NetCoreWebAPIApp.Model.csproj": {
+              "projectPath": "C:\\Users\\LENOVO T590\\Source\\Repos\\ReactAsp.NetCoreWebAPIAppNew\\ReactAsp.NetCoreWebAPIApp.Model\\ReactAsp.NetCoreWebAPIApp.Model.csproj"
             }
           }
         }

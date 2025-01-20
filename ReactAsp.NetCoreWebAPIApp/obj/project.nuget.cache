@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BoZ9rWtgb0Y4P6A+XK2KEYL9l5Tes7lxG/lr7Taou0axNfQBSlhB273AOBxfB4/j07PJJpvJqKLKSqGtKsyK9A==",
+  "dgSpecHash": "xRTw7+mszJtpxuyJ6HHB/warFzCsObD7Y0czOb+hp7Dc/JZcOizdDYhyTMK41HCJcBFyhni0lZveADs4yKg5hQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\LENOVO T590\\Source\\Repos\\ReactAsp.NetCoreWebAPIApp\\ReactAsp.NetCoreWebAPIApp\\ReactAsp.NetCoreWebAPIApp.csproj",
+  "projectFilePath": "C:\\Users\\LENOVO T590\\Source\\Repos\\ReactAsp.NetCoreWebAPIAppNew\\ReactAsp.NetCoreWebAPIApp\\ReactAsp.NetCoreWebAPIApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LENOVO T590\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\LENOVO T590\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

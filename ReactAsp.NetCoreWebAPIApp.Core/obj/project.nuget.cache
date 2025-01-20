@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OqE1Yb7z/iMbHi5m4oUtriuZhjyKSxm21ZvtkTn9tiPptxpZ6zfxtZtNjdEIdOFmeAQa8T/PO1B3iCkjaQ1s+Q==",
+  "dgSpecHash": "sf8a4cznOA849vFWJa1D75ORUCqLI3a4Th//N/Fr3A7B6D/dRvhGUUKu9S0s0nRSMhAcescq5pC36YXmgZLbQA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\LENOVO T590\\Source\\Repos\\ReactAsp.NetCoreWebAPIApp\\ReactAsp.NetCoreWebAPIApp.Core\\ReactAsp.NetCoreWebAPIApp.Core.csproj",
+  "projectFilePath": "C:\\Users\\LENOVO T590\\Source\\Repos\\ReactAsp.NetCoreWebAPIAppNew\\ReactAsp.NetCoreWebAPIApp.Core\\ReactAsp.NetCoreWebAPIApp.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LENOVO T590\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\LENOVO T590\\.nuget\\packages\\fluentvalidation\\10.4.0\\fluentvalidation.10.4.0.nupkg.sha512",

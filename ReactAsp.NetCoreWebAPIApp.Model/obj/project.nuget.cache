@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "msVOV5Gh2XEQaW0vr7U3vGTX+CHqbmOUVDxyOVrg6oyXUxOuYNMjhrwtfD01ChvyJSwPbfBQT9gdGW7SBFdRDQ==",
+  "dgSpecHash": "FBem50I2x1Brlkb4NaZlw4Ar1wJYY1rYLw/r7Z+HxgpnvOpu7QqduFLRjnTDyWTHU7GUL3zmd+tGJ6n+fSmrsA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\LENOVO T590\\Source\\Repos\\ReactAsp.NetCoreWebAPIApp\\ReactAsp.NetCoreWebAPIApp.Model\\ReactAsp.NetCoreWebAPIApp.Model.csproj",
+  "projectFilePath": "C:\\Users\\LENOVO T590\\Source\\Repos\\ReactAsp.NetCoreWebAPIAppNew\\ReactAsp.NetCoreWebAPIApp.Model\\ReactAsp.NetCoreWebAPIApp.Model.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LENOVO T590\\.nuget\\packages\\microsoft.aspnet.mvc\\5.2.7\\microsoft.aspnet.mvc.5.2.7.nupkg.sha512",
     "C:\\Users\\LENOVO T590\\.nuget\\packages\\microsoft.aspnet.razor\\3.2.7\\microsoft.aspnet.razor.3.2.7.nupkg.sha512",
